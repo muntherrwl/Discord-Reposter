@@ -500,4 +500,4 @@ client.on("message", function(message) {
 		}
 	}
 });
-worker: npm start
+"npm start"
