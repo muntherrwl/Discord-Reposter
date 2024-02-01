@@ -1,3 +1,4 @@
+"npm start"
 "use strict";
 
 console.log("LOADING LIBRARIES...");
