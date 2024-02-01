@@ -1,4 +1,3 @@
-"npm start"
 "use strict";
 
 console.log("LOADING LIBRARIES...");
@@ -500,4 +499,3 @@ client.on("message", function(message) {
 		}
 	}
 });
-"npm start"
