@@ -34,7 +34,6 @@ if (fs.existsSync("config.json")) {
 } else {
 	updateJson();
 }
-
 function updateStatus() {
 	const repostCount = Object.keys(config.active).length;
 	client.user.setActivity(`${repostCount} repost${repostCount === 1 ? "" : "s"}`, { type: "WATCHING" }).catch(console.error);
@@ -501,3 +500,4 @@ client.on("message", function(message) {
 		}
 	}
 });
+worker: npm start
